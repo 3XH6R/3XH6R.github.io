@@ -1,0 +1,222 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.custom {
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/base_luna.svg);
+    height: 516px;
+    width: 613.9px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+.custom.white {
+    /*background: url();*/
+}
+.custom.disconnected {
+    /*background: url();*/
+}
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers {
+    width: 418px;
+    height: 121px;
+    position: absolute;
+    left: 97px;
+}
+.custom .trigger {
+    width: 79px;
+    height: 80px;
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/trigger_luna.svg);
+    opacity: 0;
+}
+.custom .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+.custom .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+.custom .bumper {
+    width: 109px;
+    height: 57px;
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/bumper_luna.svg);
+    opacity: 0;
+}
+.custom .bumpers {
+    position: absolute;
+    width: 475px;
+    height: 0px;
+    left: 69px;
+    top: 99px;
+}
+.custom .bumper.pressed {
+    opacity: 1;
+}
+.custom .bumper.left {
+    float: left;
+}
+.custom .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.custom .quadrant {
+    position: absolute;
+    /*background: url();*/
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+.custom .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.custom .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.custom .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.custom .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.custom .arrows {
+    position: absolute;
+    width: 132px;
+    height: 0px;
+    top: 171px;
+    left: 241px;
+}
+.custom .back, .custom .start {
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/start-select_luna.svg);
+    width: 27px;
+    height: 27px;
+    opacity: 0;
+}
+.custom .back.pressed, .custom .start.pressed {
+    opacity: 1;
+}
+.custom .back {
+    float: left;
+}
+.custom .start {
+    background-position: 27px 0px;
+    float: right;
+}
+.custom .abxy {
+    position: absolute;
+    width: 153px;
+    height: 0px;
+    top: 140px;
+    left: 388px;
+}
+.custom .button {
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/abxy_luna.svg);
+    width: 42px;
+    height: 42px;
+}
+.custom .button.pressed {
+    background-position-y: -43px;
+    margin-top: 0px;
+    opacity: 1;
+}
+.custom .a {
+    background-position: 0 0;
+    top: 93px;
+    left: 51px;
+}
+.custom .b {
+    background-position: -43px 0;
+    top: 51px;
+    right: 19px;
+}
+.custom .x {
+    background-position: -87px 0;
+    top: 51px;
+    left: 10px;
+}
+.custom .y {
+    background-position: 42px 0;
+    left: 51px;
+    top: 10px;
+}
+.custom .sticks {
+    position: absolute;
+    width: 371px;
+    height: 196px;
+    top: 171px;
+    left: 120px;
+}
+.custom .stick {
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/stick_luna.svg);
+    background-position: -68px 0;
+    height: 68px;
+    width: 67px;
+}
+.custom .stick.pressed {
+    background-position: 0 0;
+}
+.custom .stick.left {
+    top: 0;
+    left: 0;
+}
+.custom .stick.right {
+    top: 97px;
+    left: 231px;
+}
+.custom .dpad {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 130px;
+    left: 140px;
+}
+.custom .face {
+    background: url(https://raw.githubusercontent.com/3XH6R/3xh6r.github.io/main/dpad_luna.svg);
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.pressed {
+    opacity: 1;
+}
+.custom .face.up {
+    background-position: 0px 0;
+    left: 70.5px;
+    top: 126.5px;
+    width: 35px;
+    height: 46px;
+}
+.custom .face.down {
+    background-position: -35px 0;
+    left: 70.5px;
+    bottom: -198px;
+    width: 35px;
+    height: 46px;
+}
+.custom .face.left {
+    background-position: 0 -82px;
+    width: 48px;
+    height: 34px;
+    top: 155.5px;
+    left: 42px;
+}
+.custom .face.right {
+    background-position: 0 -46px;
+    width: 55px;
+    height: 35px;
+    top: 154px;
+    right: -72.5px;
+}
+.custom.half {
+    margin-top: -315px;
+}
+.custom {
+    background: no-repeat center;
+}
+/*END Xbox One Controller Styling*/
